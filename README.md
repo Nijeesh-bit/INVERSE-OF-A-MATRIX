@@ -1,4 +1,4 @@
-# INVERSE-OF-A-MATRIX
+# INVERSE OF A MATRIX
 ## Aim:
 To write a python program to find the inverse of a matrix
 ## Equipment’s required:
@@ -6,12 +6,27 @@ To write a python program to find the inverse of a matrix
 2. 	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
 ### Step1 : 
+Import the numpy module to use the built-in functions for calculation
 ### Step 2: 
+Prepare the lists from the matrix and assign in np.array()
 ### Step 3: 
+Use the np.linalg.inv() fun
 ### Step 4: 
-
+End the program
 ## Program:
+```
+#Program to find the inverse of a matrix.
+#Developed by: 
+#RegisterNumber:
+import numpy as np
+a=np.array([[2,1,1],
+           [1,1,1],
+           [1,-1,2]])
+print(np.linalg.inv(a))
+```
 ## Output:
+<img width="605" alt="image" src="https://github.com/Nijeesh-bit/INVERSE-OF-A-MATRIX/assets/89188014/92600da2-7dba-42cb-8f1c-9dc59c4bb5b4">
+
 ## Result:
 Thus the inverse of given matrix is successfully solved using python program
 
